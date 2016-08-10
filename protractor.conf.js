@@ -44,6 +44,7 @@ exports.config = {
         'test/e2e/**/*-spec.js'
     ],
     framework: 'jasmine2',
+    directConnect: true,
 
     beforeLaunch: function () {
         return new Promise(function (resolve) {
